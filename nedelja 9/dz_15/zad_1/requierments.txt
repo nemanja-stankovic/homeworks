@@ -1,0 +1,8 @@
+python -m pip install mysql-connector-python
+pip install fastapi 
+pip install "uvicorn[standard]"  
+
+uvicorn mod_fast_api:app --reload
+
+
+
